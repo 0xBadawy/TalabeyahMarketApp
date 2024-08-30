@@ -1,11 +1,16 @@
 
 
 <div align="center">
-<h1 style="Font-size:50px;Font-wight:100" >Talabia Market Landing Page</h1>
+<h1 style="Font-size:50px;Font-wight:100" >Talabia Market
+<br> 
+<span style="Font-size:30px; ">Landing Page</span>
+</h1>
+
 <a href="src/assets/Images/Logo.png">
-<img height="100" src="./Website/assets/images/logo.png"></a>
+<img height="90" src="./src/assets/Images/Logo.png"></a>
 <br>
 </div>
+
 
 
 ## 1. Page Structure
@@ -40,5 +45,4 @@
 - **Design References**: Review similar designs for inspiration.
 
 ---
-
-This guide offers essential instructions for developing the Talabia Market landing page with a focus on structure, design, interaction, and performance.
+![alt text](<src/assets/Images/Talabia Market (7).png>)
