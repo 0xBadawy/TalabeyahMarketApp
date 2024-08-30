@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { AppSettingContext } from '../context/ThemeContext';
+import screenImage from '../assets/Screens/Screen (3).png';
 
 const HeroSection = () => {
 
@@ -69,8 +70,7 @@ const HeroSection = () => {
                 </div>
               </div>
               <div className='h-screen hidden lg:block '>
-                <img className='max-h-[80%] mt-10 m-auto' src="src/assets/Screens/Screen (3).png" alt="" />
-              </div>
+                <img className='max-h-[80%] mt-10 m-auto' src={screenImage} alt="Screen" />;              </div>
             </div>
           </div>
         </div>
