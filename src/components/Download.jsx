@@ -2,6 +2,8 @@ import React, { useContext, useState } from 'react'
 import ButtonBlack from '../button/ButtonBlack'
 import './style.css'
 import { AppSettingContext } from '../context/ThemeContext'
+import image2 from '../assets/Screens/Screen (1).png';
+import image1 from '../assets/Screens/IMG.png';
 
 const Download = () => {
     const { appSetting } = useContext(AppSettingContext);
@@ -20,9 +22,7 @@ const Download = () => {
             en: 'Download',
             ar: 'تحميل'
         },
-        images: [
-            "src/assets/Screens/IMG.png",
-            "src/assets/Screens/Screen (2).png"
+        images: [image1, image2
         ]
     });
 

@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import './style.css'
 import { AppSettingContext } from '../context/ThemeContext';
-
+import screenImage from '../assets/Screens/IMG.png';
 const RideEasy = () => {
     const { appSetting, setAppSetting } = useContext(AppSettingContext);
 
@@ -84,7 +84,8 @@ const RideEasy = () => {
                                     <div className='mt-40 md:mt-20'>
                                         <div className='justify-center items-center'>
                                             <div className='w-[380px] h-[380px] rounded-full bg-[#f3c210] flex justify-center items-center'>
-                                                <img className='mt-[-30px] w-[300px] drop-shadow-2xl ScrollEffectApper' src="src/assets/Screens/IMG.png" alt="" />
+                                                <img className='mt-[-30px] w-[300px] drop-shadow-2xl ScrollEffectApper' src={screenImage}
+                                                    alt="Screen" />
                                             </div>
                                         </div>
                                     </div>

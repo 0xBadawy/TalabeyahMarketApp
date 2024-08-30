@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { AppSettingContext } from '../context/ThemeContext';
+import screenImage from '../assets/Screens/Screen (4).png';
 
 const PhoneSection2 = () => {
 
@@ -35,7 +36,8 @@ const PhoneSection2 = () => {
                                     <div className='justify-center items-center ScrollEffectApper '>
                                         <div className=' w-[300px] h-[300px]   md:w-[600px] md:h-[600px] rounded-full border-4 border-red-950 dark:border-white flex justify-center items-center'>
                                             <div className='w-[200px] h-[200px]  md:w-[400px] md:h-[400px]   rounded-full border-8  border-[#f3c210]'>
-                                                <img className='mt-[-130px] w-[300px] mx-auto drop-shadow-2xl ScrollEffectRotate' src="src/assets/Screens/Screen (6).png" alt="" />
+                                                <img className='mt-[-130px] w-[300px] mx-auto drop-shadow-2xl ScrollEffectRotate' src={screenImage}
+                                                    alt="Screen" />
                                             </div>
                                         </div>
                                     </div>

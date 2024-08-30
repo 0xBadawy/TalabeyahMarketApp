@@ -1,5 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { AppSettingContext } from '../../context/ThemeContext';
+import Logo from '../../assets/Images/Logo.png';
 
 const Footer = () => {
     const [socialMedia, setSocialMedia] = useState([
@@ -27,7 +28,7 @@ const Footer = () => {
                                 <a href="" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                                     <img
                                         style={{ filter: 'grayscale(100%)' }}
-                                        src="src/assets/Images/Logo.png"
+                                        src={Logo}
                                         className="h-8"
                                         alt="Logo"
                                     />
