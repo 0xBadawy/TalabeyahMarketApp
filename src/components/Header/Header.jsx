@@ -2,7 +2,8 @@ import React, { useContext } from "react";
 import GetStarted from "../../button/GetStarted";
 import { AppSettingContext } from "../../context/ThemeContext";
 import { MdLightMode, MdNightlightRound } from "react-icons/md";
-import logo from '../../assets/Images/logo.png';
+// import logo from '../../assets/Images/logo.png';
+
 const Header = () => {
   const { appSetting, setAppSetting } = useContext(AppSettingContext);
 
@@ -41,7 +42,7 @@ const Header = () => {
         <div className="container mx-auto max-w-[1200px] px-3">
           <div className="flex items-center mx-auto justify-between">
             <div>
-              <img className="w-24" src={logo} alt="Logo" />
+              {/* <img className="w-24" src={logo} alt="Logo" /> */}
             </div>
             <div className="hidden md:block">
               {Navs(110)}
