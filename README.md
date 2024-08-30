@@ -1,9 +1,8 @@
 
 
 <div align="center">
-<h1 style="Font-size:50px;Font-wight:100" >Talabia Market
-<br> 
-<span style="Font-size:30px; ">Landing Page</span>
+<h1 style="Font-size:50px;Font-wight:100" >Talabia Market Landing Page
+
 </h1>
 
 <a href="src/assets/Images/Logo.png">
