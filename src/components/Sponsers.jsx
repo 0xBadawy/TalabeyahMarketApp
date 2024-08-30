@@ -31,7 +31,7 @@ const Sponsers = () => {
                 <div className=' dark:bg-[#2c2b2b]'>
                     <div className=" mx-auto  py-36">
                         <div className='  ' >
-                            <h4 className='text-3xl font-semibold my-2 dark:text-white text-center ScrollEffectApper'>شركاء النجاح</h4>
+                            <h4 className='text-3xl font-semibold my-2 dark:text-white text-center ScrollEffectApper'>{appSetting.Language == ' ar' ? "شركاء النجاح" : " Partners of Success"}</h4>
                             <div className="wrapper ScrollEffectApper ">
 
                                 {

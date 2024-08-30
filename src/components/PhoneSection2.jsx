@@ -22,7 +22,7 @@ const PhoneSection2 = () => {
     return (
         <>
             <div className={`dark:bg-black  ${appSetting.IsDark && "dark"}`}>
-                <div className='dark:bg-gradient-to-br  dark:from-[#000]  dark:via-gray-700  dark:to-[#000]'>
+                <div className='dark:bg-gradient-to-br  bg-slate-200  dark:from-[#000]  dark:via-gray-700  dark:to-[#000]'>
 
                     <div className="container mx-auto  py-36  ">
                         <div className=' mx-auto  max-w-[1200px] px-3' >
