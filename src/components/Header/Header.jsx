@@ -15,6 +15,14 @@ const Header = () => {
     console.log("HandelDark", !appSetting.IsDark);
   };
 
+  const handleLanguage = () => { 
+    setAppSetting(prev => ({
+     ...prev,
+      Language: prev.Language === 'ar'? 'en' : 'ar'
+    }));
+    console.log("HandleLanguage", appSetting.Language);
+  };
+
   const NavLinks = [
     { title: { ar: "الرئيسة", en: "Home" }, link: "/" },
     { title: { ar: "عنا", en: "About" }, link: "/about" },
@@ -49,9 +57,12 @@ const Header = () => {
             </div>
             <div className="flex gap-2 items-center">
               <GetStarted Text={appSetting.Language === 'ar' ? "أبدأ الآن" : "Start Now"} />
-              <div className=" " style={{ direction: "ltr" }}>
+              <div className="flex items-center" style={{ direction: "ltr" }}>
                 <button onClick={handleDark} className={`focus:outline-none rounded-md border-2 p-[6px] ${appSetting.IsDark ? "text-[#FFF] border-white" : "text-[#ed950d] border-[#ed950d]"} `}>
                   {appSetting.IsDark ? <MdLightMode /> : <MdNightlightRound />}
+                </button>
+                <button onClick={handleLanguage} className={`focus:outline-none rounded-md border-2 ml-1 px-[6px] py-[2px] ${appSetting.IsDark ? "text-[#FFF] border-white" : "text-[#ed950d] border-[#ed950d]"} `}>
+                  {appSetting.Language==='ar' ? <p className="font-semibold">en</p> : <p className="font-semibold">ar</p>}
                 </button>
               </div>
             </div>
